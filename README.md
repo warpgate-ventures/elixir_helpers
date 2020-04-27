@@ -14,6 +14,7 @@ end
 
 ## Usage
 
+### `ElixirHelpers.Absinthe.HandleChangesetErrors`
 Adding changeset errors in your GraphQL schema.
 
 ```elixir
@@ -28,3 +29,7 @@ defmodule Schema do
   def middleware(middleware, _field, _object), do: middleware
 end
 ```
+
+## License
+
+MIT
