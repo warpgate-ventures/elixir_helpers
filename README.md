@@ -7,7 +7,7 @@ Collection of elixir helpers we use in Warpgate for our internal projects. Do no
 ```elixir
 def deps do
   [
-    {:elixir_helpers, "https://github.com/warpgate-ventures/elixir_helpers"}
+    {:elixir_helpers, github: "https://github.com/warpgate-ventures/elixir_helpers"},
   ]
 end
 ```
