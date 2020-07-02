@@ -30,6 +30,7 @@ defmodule ElixirHelpers.Absinthe.HandleChangesetErrors do
   end
 
   defp translate_error({k, v}) do
+    v = Enum.join(v, ", ")
     "#{k}: #{translate_error(v)}"
   end
 
